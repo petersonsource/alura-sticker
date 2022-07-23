@@ -13,7 +13,7 @@ public class App {
         //String url = "https://api.mocki.io/v2/549a5d8b/NASA-APOD";
         //ExtratorDeConteudo extrator = new ExtratorDeConteudoDaNasa();
   
-        String url = "http://localhost:8080/linguagens";
+        String url = "https://alura-llinguagens-api.herokuapp.com/linguagens";
         ExtratorDeConteudo extrator = new ExtratorDeConteudoDoIMDB();
 
         var http = new ClienteHttp();
